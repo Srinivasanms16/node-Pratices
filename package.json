@@ -1,0 +1,27 @@
+{
+  "name": "nodepratices",
+  "version": "1.0.0",
+  "description": "pratices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2",
+    "yargs": "^15.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srinivasanms16/NodePratice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Srinivasanms16/NodePratice/issues"
+  },
+  "homepage": "https://github.com/Srinivasanms16/NodePratice#readme"
+}
