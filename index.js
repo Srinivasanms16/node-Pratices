@@ -1,4 +1,8 @@
 
+//Module wrapper function. all the node file is wrapped with this function.
+//(function(exports, require, module, __filename, __dirname) { 
+    // Module code actually lives in here 
+//}); 
 const { Worker, isMainThread, parentPort,workerData} = require('worker_threads');
 const http = require('http');
 const EventEmitter  = require('events');
@@ -75,16 +79,12 @@ else
 {
   console.log(workerData);
 
-   /*setTimeout(()=>{
+   setTimeout(()=>{
     parentPort.postMessage(`i am ${workerData.name}`); 
     console.log("i am worker !!")
-  },workerData.value) */
+  },workerData.value) ;
 
     //code that we need run in worker thread .
 } 
 
 
-//Module wrapper function. all the node file is wrapped with this function.
-//(function(exports, require, module, __filename, __dirname) { 
-    // Module code actually lives in here 
-//}); 

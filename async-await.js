@@ -12,7 +12,6 @@ const add = (a,b)=>{
         setTimeout(()=>{resolve(a+b)}
         ,2000)
     });
-
 }
 
 
